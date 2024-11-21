@@ -1,103 +1,191 @@
-#Input and Output
+# N5 SDD - Animals
 
-## Python Comments
+The Higher Psychology pupils want a program that will give a quick answer to a couple of questions.  Unfortunately, they didn't pick wisely with their choices and don't know how to do it themselves.
 
-All of the programs you see will have lines that start with #
+## Program Analysis
 
-!!! example
-	```Python
-	# This is a comment
-	# The computer ignores lines that start with this symbol
-	```
+A program is required that will ask the user their name and age.  It will then ask if they like cats, and then ask if they like dogs.
 
-The computer ignores lines that start with a #. 
+The answers to all of the questions are to be displayed.  The type of person they are will then be displayed
 
-We call these **Internal Comments**.  
+### Input
 
-It is good practice to write these comments in your code, to remind you what particular parts do.
+* name: must not be left blank
+* age: only secondary ages are allowed
+* like cats: only ___yes___ or  ___no___ allowed
+* like dogs: only ___yes___ or  ___no___ allowed
 
-!!! info
+### Process
 
-	At National 5, you will be expected to use comments in your code.
+* determine the type of person
 
-## Print Statement
+### Output
 
-During most National 5 programs, you will be asked to display things on the screen.
-In Python, you do this with the **print()** statement.
+* display a data summary
+* display the person type
 
-!!! example
-	```Python
-	print ("Hello world")
-	print ("Welcome to", "National 5")
-	print ("My name is", name)
-	```
+## Type of Person
 
-**In** the **brackets**, put the message you want to print. 
+The program will use someone's answers about whateher they like cats and dogs to determine what type of person they are, as shown in the table below.
 
-If you want to display a variable, do not use quotation marks:
+| Cats | Dogs | Type |
+| :--: | :--: | :--: |
+| Yes  | Yes  | Good |
+| Yes  | No   | Ok   |
+| No   | Yes  | Ok   |
+| No   | No   | Evil |
 
-!!! example
-	```Python
-	print(age)
-	print(name)
-	```
+## User Interface
 
-!!! note
-	This would print whatever is in the variable, not the word **age** or **name**.
+=== "Example One"
 
-If you want to print a **string** and a **variable**, use a comma between the strings:
+    ``` 
+	Hi!  What is your name? Eli
+	
+	Hi Eli how old are you? 11
+	
+	Eli, do you like cats? yes
+	
+	Eli, do you like dogs? yes
+	
+	Data Summary
+	------------
+	Name: Eli
+	Age: 11
+	Like cats: yes
+	Like dogs: yes
+	
+	From your answers about animals
+	I think you're a good person!
+    ```
 
-!!! example
-	```Python
-	print("Welcome to", "National 5")
-	print("My name is", name)
-	```
-		
-## Input Statement
+=== "Example Two"
 
-When you want the user to enter data, use an input statement.
-!!! example
-	```Python
-	# When you input a string
-	name = input("Please enter your name")
-	```
+    ```
+	Hi!  What is your name? Bob
+	
+	Hi Bob how old are you? 18
+	
+	Bob, do you like cats? no 
+	
+	Bob, do you like dogs? no
+	
+	Data Summary
+	------------
+	Name: Bob
+	Age: 18
+	Like cats: no
+	Like dogs: no
+	
+	From your answers about animals
+	I think you're an evil person!
+    ```
 
-This shows a message on the screen 'Please enter your name' **and asks the user to type in some data**. The data they enter is stored in a variable.
+=== "Example Three"
 
-!!! example
-	```Python
-	# Enter some data from the keyboard
-	name = input("Please enter your name")
+    ``` 
+	Hi!  What is your name? Jo 
+	
+	Hi Jo how old are you? 10
+	Jo! This quiz is only for secondary pupils.
+	
+	Hi Jo how old are you? 19
+	Jo! This quiz is only for secondary pupils.
+	
+	Hi Jo how old are you? 15
+	
+	Jo, do you like cats? yes
+	
+	Jo, do you like dogs? maybe
+	Jo! It's a yes or no question.
+	
+	Data Summary
+	------------
+	Name: Jo
+	Age: 15
+	Like cats: yes
+	Like dogs: no
+	
+	From your answers about animals
+	I think you're an ok person!
+    ```
+### Example 1
 
-	title = input("Enter book title")
-	author = input("Enter book author")
-	genre = input("Enter book genre")
-	```
+```
+Hi!  What is your name? Eli
 
-!!! info
+Hi Eli how old are you? 11
 
-	The input statement will be used in almost all of your programs.
+Eli, do you like cats? yes
 
-## Input with Numbers
+Eli, do you like dogs? yes
 
-When you input numbers, there is an extra step you must take.
+Data Summary
+------------
+Name: Eli
+Age: 11
+Like cats: yes
+Like dogs: yes
 
-Any data that you input is automatically assumed to be a string.
+From your answers about animals
+I think you're a good person!
+```
 
-Strings can contain any sort of characters, including digits.
+### Example 2
 
-!!! note
+```
+Hi!  What is your name? Bob
 
-	It's important, if we want to use the data as a number (for example, doing a calculation with it) that we cast (convert) it from string to a number type.
+Hi Bob how old are you? 18
 
-!!! example
-	```Python
-	# When you input a string
-	name = input("Please enter your name")
+Bob, do you like cats? no 
 
-	# When you input an integer number, use int( )
-	age = int(input("Enter age"))
+Bob, do you like dogs? no
 
-	# When you input a real number, use float( )
-	price = float(input("Enter price"))
-	```
+Data Summary
+------------
+Name: Bob
+Age: 18
+Like cats: no
+Like dogs: no
+
+From your answers about animals
+I think you're an evil person!
+```
+
+### Example 3
+
+```
+Hi!  What is your name? 
+Are you shy?
+
+Hi!  What is your name? Jo 
+
+Hi Jo how old are you? 10
+Jo! This quiz is only for secondary pupils.
+
+Hi Jo how old are you? 19
+Jo! This quiz is only for secondary pupils.
+
+Hi Jo how old are you? 15
+
+Jo, do you like cats? yes
+
+Jo, do you like dogs? maybe
+Jo! It's a yes or no question.
+
+Data Summary
+------------
+Name: Jo
+Age: 15
+Like cats: yes
+Like dogs: no
+
+From your answers about animals
+I think you're an ok person!
+```
+
+## Assumptions
+
+* All ___yes___ / ___no___ answers will be lower case.
+* All ages will be integers.

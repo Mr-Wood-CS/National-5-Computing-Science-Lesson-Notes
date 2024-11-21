@@ -1,6 +1,6 @@
 # Software Implementation
 
-site_url: https://[R Pi Editor](https://editor.raspberrypi.org/en/education)
+[R Pi Editor](https://editor.raspberrypi.org/en/education)
 
 
 

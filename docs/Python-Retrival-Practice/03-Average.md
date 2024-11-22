@@ -1,31 +1,42 @@
-# Ask Questions
+# Average
+
+## Introduction
+
+A program is required that will calculate the [mean](https://www.mathsisfun.com/mean.html "Maths help") of a set of numbers.
 
 ## Task
 
-Write a short program that will ask the user their name, and then say hello to them.  Next it will ask their age, and say how old they will be next year.
+Write a short program that will ask the user how many numbers they have.  The program will then ask the user to enter each value in turn.
 
-### Example
+The sum of the values will be displayed, and the mean.
+
+## Example 1
 
 ```
-What is your name? Tom
+Mean Calculator
+---------------
 
-Hello Tom.
+How many values: 3
 
-How old are you? 9
+Value 1: 5
+Value 2: 15
+Value 3: 10
 
-You'll be 10 this time next year!
+Sum: 30.0
+Mean: 10.0
 ```
 
-## Readability
+### Example 2
 
-Ensure that your program is easy to maintain by ensuring you include:
+```
+Mean Calculator
+---------------
 
-1. Meaningful identifiers
-2. Internal commentary
-3. Whitespace
-4. ~Indentation~
+How many values: 2
 
-## Top Tips
+Value 1: 3.7
+Value 2: 8.5
 
-1. Everything from the keyboard is a string.
-2. Only strings can be concatenated.
+Sum: 12.2
+Mean: 6.1
+```

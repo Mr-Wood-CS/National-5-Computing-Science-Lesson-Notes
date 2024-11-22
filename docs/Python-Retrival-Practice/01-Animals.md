@@ -81,34 +81,10 @@ The program will use someone's answers about whateher they like cats and dogs to
 	I think you're an evil person!
     ```
 
-=== "Example Three"
 
-    ``` 
-	Hi!  What is your name? Jo 
-	
-	Hi Jo how old are you? 10
-	Jo! This quiz is only for secondary pupils.
-	
-	Hi Jo how old are you? 19
-	Jo! This quiz is only for secondary pupils.
-	
-	Hi Jo how old are you? 15
-	
-	Jo, do you like cats? yes
-	
-	Jo, do you like dogs? maybe
-	Jo! It's a yes or no question.
-	
-	Data Summary
-	------------
-	Name: Jo
-	Age: 15
-	Like cats: yes
-	Like dogs: no
-	
-	From your answers about animals
-	I think you're an ok person!
-    ```
+
+
+
 ### Example 1
 
 ```

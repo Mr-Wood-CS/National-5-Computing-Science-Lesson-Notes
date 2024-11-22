@@ -10,33 +10,35 @@ Write a short program that will ask the user how many numbers they have.  The pr
 
 The sum of the values will be displayed, and the mean.
 
-## Example 1
+=== "Example One"
 
-```
-Mean Calculator
----------------
+    ```
+      Mean Calculator
+      ---------------
+      
+      How many values: 3
+      
+      Value 1: 5
+      Value 2: 15
+      Value 3: 10
+      
+      Sum: 30.0
+      Mean: 10.0
+    ```
 
-How many values: 3
+=== "Example Two"
 
-Value 1: 5
-Value 2: 15
-Value 3: 10
+    ```
+      Mean Calculator
+      ---------------
+      
+      How many values: 2
+      
+      Value 1: 3.7
+      Value 2: 8.5
+      
+      Sum: 12.2
+      Mean: 6.1
+    ```
 
-Sum: 30.0
-Mean: 10.0
-```
 
-### Example 2
-
-```
-Mean Calculator
----------------
-
-How many values: 2
-
-Value 1: 3.7
-Value 2: 8.5
-
-Sum: 12.2
-Mean: 6.1
-```

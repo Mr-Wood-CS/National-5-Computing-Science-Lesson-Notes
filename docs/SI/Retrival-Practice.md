@@ -3,7 +3,7 @@
 === "Level 1 🌶️"
 
     * [Animals](../Python-Retrival-Practice/01-Animals.md)
-    * [Ask Questions](../Python-Retrival-Practice/01-Ask-Questions.md)
+    * [Ask Questions](../Python-Retrival-Practice/02-Ask-Questions.md)
     * Nulla tempor lobortis orci
 
 === "Level 2 🌶️ 🌶️"

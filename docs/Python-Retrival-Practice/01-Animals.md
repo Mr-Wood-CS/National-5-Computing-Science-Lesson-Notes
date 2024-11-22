@@ -40,23 +40,23 @@ The program will use someone's answers about whateher they like cats and dogs to
     === "Example One"
 
     ``` 
-    Hi!  What is your name? Eli
+      Hi!  What is your name? Eli
 
-    Hi Eli how old are you? 11
+      Hi Eli how old are you? 11
 
-    Eli, do you like cats? yes
+      Eli, do you like cats? yes
 
-    Eli, do you like dogs? yes
+      Eli, do you like dogs? yes
 
-    Data Summary
-    ------------
-    Name: Eli
-    Age: 11
-    Like cats: yes
-    Like dogs: yes
+      Data Summary
+      ------------
+      Name: Eli
+      Age: 11
+      Like cats: yes
+      Like dogs: yes
 
-    From your answers about animals
-    I think you're a good person!
+      From your answers about animals
+      I think you're a good person!
     ```
 
 === "Example Two"

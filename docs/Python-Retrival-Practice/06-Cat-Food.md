@@ -1,31 +1,59 @@
-# Ask Questions
+# Cat Food
 
-## Task
 
-Write a short program that will ask the user their name, and then say hello to them.  Next it will ask their age, and say how old they will be next year.
+## Introduction
 
-### Example
+Implement a program that macthes the structure diagram below.  It will allow a user to enter the age of their cat in (human) years.  Depending on its age, display the appropriate food to feed it, using the table below:
+
+| Type of cat | Age of cat | Type of food |
+| ----------- | :--------: | ------------ |
+| Kitten      | < 1        | Kitten food |
+| Cat         | 1 - 6      | Adult cat food |
+| Senior      | 7+         | Senior cat food |
+
+
+## Structure diagram
+
+
+
+## Example User interfaces
+
+### Example 1
 
 ```
-What is your name? Tom
+Cat Food Selector
+-----------------
 
-Hello Tom.
+How old is the cat? 0
 
-How old are you? 9
+Your cat is 0 years old
+Feed it kitten food.
 
-You'll be 10 this time next year!
+Meow!
+=====
 ```
 
-## Readability
+### Example 2
 
-Ensure that your program is easy to maintain by ensuring you include:
+```
+Cat Food Selector
+-----------------
 
-1. Meaningful identifiers
-2. Internal commentary
-3. Whitespace
-4. ~Indentation~
+How old is the cat? 56
 
-## Top Tips
+Enter an age from 0 - xx
+How old is the cat? 5
 
-1. Everything from the keyboard is a string.
-2. Only strings can be concatenated.
+Your cat is 5 years old.
+Feed it adult cat food.
+
+Meow!
+=====
+```
+
+
+## Notes
+
+Ensure that the age of the cat is valid.  How long, approximately, can cats live?
+
+___xx___ Example 2 is the upper limit that you choose.

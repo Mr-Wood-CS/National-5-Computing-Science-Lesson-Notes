@@ -35,7 +35,7 @@ The program will use someone's answers about whateher they like cats and dogs to
 | No   | Yes  | Ok   |
 | No   | No   | Evil |
 
-## User Interface
+## Example User Interfaces
 
 === "Example One"
 

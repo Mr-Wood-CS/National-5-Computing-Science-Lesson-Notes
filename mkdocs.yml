@@ -1,7 +1,7 @@
 site_name: National 5 Computing Science
 nav:
     - Home: 'index.md'
-    - Code Practice: 'SI/Retrival-Practice.md'
+    - Code Practice: 'Python-Retrival-Practice/index.md'
     - Unit 1 - Software Design and Development:
       - SDD/index.md
       - Development Methodologies: 'SDD/01-Development-Methodologies.md'

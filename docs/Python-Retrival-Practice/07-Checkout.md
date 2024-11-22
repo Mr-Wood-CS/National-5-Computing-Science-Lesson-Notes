@@ -1,31 +1,42 @@
-# Ask Questions
+# Checkout
 
-## Task
+## Introduction
 
-Write a short program that will ask the user their name, and then say hello to them.  Next it will ask their age, and say how old they will be next year.
+The Kisimul Buth wants a new checkout system.  Customers can buy one or more items at a time.  To speed up the process, the cost of items are to be entered one after another, with a cost of `0` being used to finish.
 
-### Example
+
+## Tasks
+
+1. Using a design technique of your choice, create an algorithm for the solution.
+
+2. Create a comprehensive test plan.
+
+3. Implement a program that matches the design.
+
+4. Use the test plan to check that the program works correctly.
+
+An example user interface has been designed.  Ensure that Kisimul Buth can not lose money.
+
+
+## Assumptions
+
+* All values are entered as pounds, i.e. 50p is 0.50
+
+
+## Example User interface
 
 ```
-What is your name? Tom
+Kisimul Buth
+------------
 
-Hello Tom.
+Item 1: 0.50
+Item 2: 2.50
+Item 3: 0
 
-How old are you? 9
-
-You'll be 10 this time next year!
+Total
+-----
+Items: 2
+Cost: £3.0
+=====
 ```
 
-## Readability
-
-Ensure that your program is easy to maintain by ensuring you include:
-
-1. Meaningful identifiers
-2. Internal commentary
-3. Whitespace
-4. ~Indentation~
-
-## Top Tips
-
-1. Everything from the keyboard is a string.
-2. Only strings can be concatenated.

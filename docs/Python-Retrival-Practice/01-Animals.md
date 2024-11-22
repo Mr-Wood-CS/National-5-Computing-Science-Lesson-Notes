@@ -37,34 +37,34 @@ The program will use someone's answers about whateher they like cats and dogs to
 
 ## User Interface
 
-=== "Example One"
+    === "Example One"
 
     ``` 
-	Hi!  What is your name? Eli
-	
-	Hi Eli how old are you? 11
-	
-	Eli, do you like cats? yes
-	
-	Eli, do you like dogs? yes
-	
-	Data Summary
-	------------
-	Name: Eli
-	Age: 11
-	Like cats: yes
-	Like dogs: yes
-	
-	From your answers about animals
-	I think you're a good person!
+    Hi!  What is your name? Eli
+
+    Hi Eli how old are you? 11
+
+    Eli, do you like cats? yes
+
+    Eli, do you like dogs? yes
+
+    Data Summary
+    ------------
+    Name: Eli
+    Age: 11
+    Like cats: yes
+    Like dogs: yes
+
+    From your answers about animals
+    I think you're a good person!
     ```
 
 === "Example Two"
 
     ```
-	Hi!  What is your name? Bob
+    Hi!  What is your name? Bob
 	
-	Hi Bob how old are you? 18
+    Hi Bob how old are you? 18
 	
 	Bob, do you like cats? no 
 	
@@ -80,7 +80,34 @@ The program will use someone's answers about whateher they like cats and dogs to
 	From your answers about animals
 	I think you're an evil person!
     ```
+=== "Example Three"
 
+    ``` 
+	Hi!  What is your name? Jo 
+	
+	Hi Jo how old are you? 10
+	Jo! This quiz is only for secondary pupils.
+	
+	Hi Jo how old are you? 19
+	Jo! This quiz is only for secondary pupils.
+	
+	Hi Jo how old are you? 15
+	
+	Jo, do you like cats? yes
+	
+	Jo, do you like dogs? maybe
+	Jo! It's a yes or no question.
+	
+	Data Summary
+	------------
+	Name: Jo
+	Age: 15
+	Like cats: yes
+	Like dogs: no
+	
+	From your answers about animals
+	I think you're an ok person!
+    ```
 
 
 

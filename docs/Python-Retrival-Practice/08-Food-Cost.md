@@ -1,31 +1,53 @@
-# Ask Questions
+# Food Cost
+
+## Introduction
+
+Food businesses need to operate at a profit to stay in business.  
+
+__This means they sell food for more than they buy it for.__
+
+A new food business wants to make sure it is charging enough to be able to stay in business.  
+
+Its unique selling point (USP) is that each plate of food only has three, four, or five ingredients.  
+
+Every ingredient costs less than £10 to the business. 
+
+It multiplies the cost of each item by four to see how much it should charge customers.
 
 ## Task
 
-Write a short program that will ask the user their name, and then say hello to them.  Next it will ask their age, and say how old they will be next year.
+Produce a program that will help the business calculate the price of each plate of food.
 
-### Example
+The user is to be asked how many ingredients there are, and the price of each ingredient.  
+
+The cost of a plate will be calculated and displayed.
+
+The price that each item will be sold for will be displayed, and the cost of a plate will be calculated and displayed.
+
+Any example of the expected user interface is shown below.
+
+## Example
 
 ```
-What is your name? Tom
-
-Hello Tom.
-
-How old are you? 9
-
-You'll be 10 this time next year!
+  How many ingredients? 4
+  
+  Buy
+  -------------
+  Item 1: 9.23
+  Item 2: 2.56
+  Item 3: 1.01
+  Item 4: 5
+  -------------
+  £ 17.8
+  -------------
+  
+  Sell
+  -------------
+  Item 1: 36.92
+  Item 2: 10.24
+  Item 3: 4.04
+  Item 4: 20.0
+  -------------
+  £71.2
+  -------------
 ```
-
-## Readability
-
-Ensure that your program is easy to maintain by ensuring you include:
-
-1. Meaningful identifiers
-2. Internal commentary
-3. Whitespace
-4. ~Indentation~
-
-## Top Tips
-
-1. Everything from the keyboard is a string.
-2. Only strings can be concatenated.

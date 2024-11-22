@@ -2,7 +2,7 @@
 
 === "Level 1 🌶️"
 
-    * - [Animals](../Python-Retrival-Practice/01-Animals.md)
+    * [Animals](../Python-Retrival-Practice/01-Animals.md)
     * Donec vitae suscipit est
     * Nulla tempor lobortis orci
 

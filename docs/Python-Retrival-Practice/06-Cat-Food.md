@@ -18,39 +18,38 @@ Implement a program that macthes the structure diagram below.  It will allow a u
 
 ## Example User interfaces
 
-### Example 1
+=== "Example One"
 
-```
-Cat Food Selector
------------------
+    ```
+    Cat Food Selector
+    -----------------
+    
+    How old is the cat? 0
+    
+    Your cat is 0 years old
+    Feed it kitten food.
+    
+    Meow!
+    =====
+    ```
 
-How old is the cat? 0
+=== "Example Two"
 
-Your cat is 0 years old
-Feed it kitten food.
-
-Meow!
-=====
-```
-
-### Example 2
-
-```
-Cat Food Selector
------------------
-
-How old is the cat? 56
-
-Enter an age from 0 - xx
-How old is the cat? 5
-
-Your cat is 5 years old.
-Feed it adult cat food.
-
-Meow!
-=====
-```
-
+    ```
+    Cat Food Selector
+    -----------------
+    
+    How old is the cat? 56
+    
+    Enter an age from 0 - xx
+    How old is the cat? 5
+    
+    Your cat is 5 years old.
+    Feed it adult cat food.
+    
+    Meow!
+    =====
+    ```
 
 ## Notes
 

@@ -35,28 +35,51 @@ The program will use someone's answers about whateher they like cats and dogs to
 | No   | Yes  | Ok   |
 | No   | No   | Evil |
 
+
+=== "C"
+
+    ``` c
+    #include <stdio.h>
+
+    int main(void) {
+      printf("Hello world!\n");
+      return 0;
+    }
+    ```
+
+=== "C++"
+
+    ``` c++
+    #include <iostream>
+
+    int main(void) {
+      std::cout << "Hello world!" << std::endl;
+      return 0;
+    }
+    ```
+
 ## User Interface
 
-    === "Example One"
+=== "Example One"
 
     ``` 
-      Hi!  What is your name? Eli
+    Hi!  What is your name? Eli
 
-      Hi Eli how old are you? 11
+    Hi Eli how old are you? 11
 
-      Eli, do you like cats? yes
+    Eli, do you like cats? yes
 
-      Eli, do you like dogs? yes
+    Eli, do you like dogs? yes
 
-      Data Summary
-      ------------
-      Name: Eli
-      Age: 11
-      Like cats: yes
-      Like dogs: yes
+    Data Summary
+    ------------
+    Name: Eli
+    Age: 11
+    Like cats: yes
+    Like dogs: yes
 
-      From your answers about animals
-      I think you're a good person!
+    From your answers about animals
+    I think you're a good person!
     ```
 
 === "Example Two"

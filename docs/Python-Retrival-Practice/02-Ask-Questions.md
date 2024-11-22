@@ -1,141 +1,31 @@
-# Animals
+# Ask Questions
 
-The Higher Psychology pupils want a program that will give a quick answer to a couple of questions.  Unfortunately, they didn't pick wisely with their choices and don't know how to do it themselves.
+## Task
 
-## Program Analysis
+Write a short program that will ask the user their name, and then say hello to them.  Next it will ask their age, and say how old they will be next year.
 
-A program is required that will ask the user their name and age.  It will then ask if they like cats, and then ask if they like dogs.
+### Example
 
-The answers to all of the questions are to be displayed.  The type of person they are will then be displayed
+```
+What is your name? Tom
 
-### Input
+Hello Tom.
 
-* name: must not be left blank
-* age: only secondary ages are allowed
-* like cats: only ___yes___ or  ___no___ allowed
-* like dogs: only ___yes___ or  ___no___ allowed
+How old are you? 9
 
-### Process
+You'll be 10 this time next year!
+```
 
-* determine the type of person
+## Readability
 
-### Output
+Ensure that your program is easy to maintain by ensuring you include:
 
-* display a data summary
-* display the person type
+1. Meaningful identifiers
+2. Internal commentary
+3. Whitespace
+4. ~Indentation~
 
-## Type of Person
+## Top Tips
 
-The program will use someone's answers about whateher they like cats and dogs to determine what type of person they are, as shown in the table below.
-
-| Cats | Dogs | Type |
-| :--: | :--: | :--: |
-| Yes  | Yes  | Good |
-| Yes  | No   | Ok   |
-| No   | Yes  | Ok   |
-| No   | No   | Evil |
-
-
-=== "C"
-
-	    ``` c
-	    #include <stdio.h>
-	
-	    int main(void) {
-	      printf("Hello world!\n");
-	      return 0;
-	    }
-	    ```
-
-=== "C++"
-
-	    ``` c++
-	    #include <iostream>
-	
-	    int main(void) {
-	      std::cout << "Hello world!" << std::endl;
-	      return 0;
-	    }
-	    ```
-
-## User Interface
-
-=== "Example One"
-
-    ```
-    Hi!  What is your name? Eli
-
-    Hi Eli how old are you? 11
-
-    Eli, do you like cats? yes
-
-    Eli, do you like dogs? yes
-
-    Data Summary
-    ------------
-    Name: Eli
-    Age: 11
-    Like cats: yes
-    Like dogs: yes
-
-    From your answers about animals
-    I think you're a good person!
-    ```
-
-=== "Example Two"
-
-    ```
-    Hi!  What is your name? Bob
-	
-    Hi Bob how old are you? 18
-	
-    Bob, do you like cats? no 
-	
-    Bob, do you like dogs? no
-	
-    Data Summary
-    ------------
-    Name: Bob
-    Age: 18
-    Like cats: no
-    Like dogs: no
-	
-    From your answers about animals
-    I think you're an evil person!
-    ```
-
-=== "Example Three"
-
-    ``` 
-    Hi!  What is your name? Jo 
-	
-    Hi Jo how old are you? 10
-    Jo! This quiz is only for secondary pupils.
-	
-    Hi Jo how old are you? 19
-    Jo! This quiz is only for secondary pupils.
-	
-    Hi Jo how old are you? 15
-	
-    Jo, do you like cats? yes
-	
-    Jo, do you like dogs? maybe
-    Jo! It's a yes or no question.
-	
-    Data Summary
-    ------------
-    Name: Jo
-    Age: 15
-    Like cats: yes
-    Like dogs: no
-	
-    From your answers about animals
-    I think you're an ok person!
-    ```
-
-
-
-## Assumptions
-
-* All ___yes___ / ___no___ answers will be lower case.
-* All ages will be integers.
+1. Everything from the keyboard is a string.
+2. Only strings can be concatenated.

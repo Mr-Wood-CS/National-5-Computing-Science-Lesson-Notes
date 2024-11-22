@@ -2,7 +2,7 @@
 
 === "Level 1 🌶️"
 
-    * [Animals](../Python-Retrival-Practice/01-Animals.md)
+    * [Animals](../Python-Retrival-Practice/01-Animals.md){:target="_blank"}
     * [Ask Questions](../Python-Retrival-Practice/02-Ask-Questions.md)
     * [Average](../Python-Retrival-Practice/03-Average.md)
     * [Boccia](../Python-Retrival-Practice/04-Boccia.md)

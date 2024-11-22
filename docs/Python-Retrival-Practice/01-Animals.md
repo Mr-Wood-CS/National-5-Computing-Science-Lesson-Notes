@@ -1,5 +1,5 @@
-:material-home:
 
+:material-home: [Home](../Static/5.2-Glazing-Company.py)
 # Animals
 
 The Higher Psychology pupils want a program that will give a quick answer to a couple of questions.  Unfortunately, they didn't pick wisely with their choices and don't know how to do it themselves.

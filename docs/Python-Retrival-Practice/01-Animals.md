@@ -38,25 +38,25 @@ The program will use someone's answers about whateher they like cats and dogs to
 
 === "C"
 
-    ``` c
-    #include <stdio.h>
-
-    int main(void) {
-      printf("Hello world!\n");
-      return 0;
-    }
-    ```
+	    ``` c
+	    #include <stdio.h>
+	
+	    int main(void) {
+	      printf("Hello world!\n");
+	      return 0;
+	    }
+	    ```
 
 === "C++"
 
-    ``` c++
-    #include <iostream>
-
-    int main(void) {
-      std::cout << "Hello world!" << std::endl;
-      return 0;
-    }
-    ```
+	    ``` c++
+	    #include <iostream>
+	
+	    int main(void) {
+	      std::cout << "Hello world!" << std::endl;
+	      return 0;
+	    }
+	    ```
 
 ## User Interface
 

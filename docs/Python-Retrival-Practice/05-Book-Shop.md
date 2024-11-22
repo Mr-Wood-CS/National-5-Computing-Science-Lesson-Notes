@@ -10,7 +10,7 @@ Use the structure diagram to implement a program that will accept a non-discount
 
 ## Top level design (Structure diagram)
 
-![Structure diagram](./Images/sd2.png)
+![Structure diagram](../Images/sd2.png)
 
 ## Assumptions
 

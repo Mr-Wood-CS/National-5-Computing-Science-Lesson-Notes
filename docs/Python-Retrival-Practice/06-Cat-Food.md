@@ -14,7 +14,7 @@ Implement a program that macthes the structure diagram below.  It will allow a u
 
 ## Structure diagram
 
-
+![Image title](../Images/sd.png){ width="300" }
 
 ## Example User interfaces
 

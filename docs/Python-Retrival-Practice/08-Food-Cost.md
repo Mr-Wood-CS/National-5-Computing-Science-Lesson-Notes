@@ -28,26 +28,26 @@ Any example of the expected user interface is shown below.
 
 ## Example
 
-        ```
-          How many ingredients? 4
-          
-          Buy
-          -------------
-          Item 1: 9.23
-          Item 2: 2.56
-          Item 3: 1.01
-          Item 4: 5
-          -------------
-          £ 17.8
-          -------------
-          
-          Sell
-          -------------
-          Item 1: 36.92
-          Item 2: 10.24
-          Item 3: 4.04
-          Item 4: 20.0
-          -------------
-          £71.2
-          -------------
-    ```
+```
+  How many ingredients? 4
+  
+  Buy
+  -------------
+  Item 1: 9.23
+  Item 2: 2.56
+  Item 3: 1.01
+  Item 4: 5
+  -------------
+  £ 17.8
+  -------------
+  
+  Sell
+  -------------
+  Item 1: 36.92
+  Item 2: 10.24
+  Item 3: 4.04
+  Item 4: 20.0
+  -------------
+  £71.2
+  -------------
+```

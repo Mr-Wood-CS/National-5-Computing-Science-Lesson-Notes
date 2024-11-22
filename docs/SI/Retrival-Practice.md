@@ -6,7 +6,7 @@
     * [Ask Questions](../Python-Retrival-Practice/02-Ask-Questions.md)
     * [Average](../Python-Retrival-Practice/03-Average.md)
     * [Boccia](../Python-Retrival-Practice/04-Boccia.md)
-    * [Checkout](../Python-Retrival-Practice/07-Check-Out.md)
+    * [Checkout](../Python-Retrival-Practice/07-Checkout.md)
     * [Food Cost](../Python-Retrival-Practice/08-Food-Cost.md)
 
 === "Level 2 🌶️ 🌶️"

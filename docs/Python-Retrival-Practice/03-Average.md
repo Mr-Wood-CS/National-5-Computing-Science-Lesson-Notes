@@ -10,6 +10,8 @@ Write a short program that will ask the user how many numbers they have.  The pr
 
 The sum of the values will be displayed, and the mean.
 
+## Examples
+
 === "Example One"
 
     ```

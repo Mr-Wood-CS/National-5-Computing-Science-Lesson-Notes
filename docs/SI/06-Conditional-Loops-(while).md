@@ -42,7 +42,7 @@ A conditional loop is like a combination of a fixed loop and an if statement and
 
 !!! example "01 - Fifty or Less"
 
-    ==Instructions==
+    ==Analysis==
 	
 	Create a program that will ask a user to enter a number. This number will be added to a total and as long as the total is below __50__ it will ask the user to input another number.
 		

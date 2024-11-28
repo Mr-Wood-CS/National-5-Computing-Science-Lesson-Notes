@@ -53,13 +53,15 @@ A conditional loop is like a combination of a fixed loop and an if statement and
 		
     ==Pseudocode==
 
-    	`Main Steps`
+	`Main Steps`
 		
 	:	1.0 Set total TO 0 
 	
 	:	2.0 Start conditional loop
     
-    	`Refinements`
+    	
+	`Refinements`
+ 
     	
  	`2.0` 
 

@@ -38,9 +38,9 @@ A conditional loop is like a combination of a fixed loop and an if statement and
 			print("One hundred is still more than five")
 	```
 
-## Fifty or Less
+## FExtension Tasks
 
-!!! example 01 - Fifty or Less
+!!! "01 - Fifty or Less"
 
     ==Instructions==
 

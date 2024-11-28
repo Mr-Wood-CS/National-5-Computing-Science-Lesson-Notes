@@ -59,8 +59,10 @@ A conditional loop is like a combination of a fixed loop and an if statement and
 	
 	2.0 Start conditional loop
     
-    __Refinements__
-    
+    	`Refinements`
+
+     	:
+    	
  	`2.0` 
 
    	:	2.1 While number != 50

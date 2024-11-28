@@ -51,7 +51,7 @@ A conditional loop is like a combination of a fixed loop and an if statement and
     | Integer      | Add integer to total | Total
     |              | If total below 50    | Enter another number
 
-    ** Pseudocode
+    ==Pseudocode==
 
     1. Set the total to 0 to start with
    

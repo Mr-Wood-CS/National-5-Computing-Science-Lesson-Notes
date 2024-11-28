@@ -52,12 +52,18 @@ A conditional loop is like a combination of a fixed loop and an if statement and
 	|              | If total below 50    | Enter another number
 		
     ==Pseudocode==
+
+    __Main Steps__
 		
-	1. Set the total to 0 to start with
+	1. Set total TO 0 
 	
-	2. While the total is 50 or less, ask the user to enter a number.
+	2. Start conditional loop
+    
+    __Refinements__
+
+    	2.1 While number != 50
+     	2.2 Ask user to enter a number
+     	2.3 Add number to total
+      	2.4 Display total
 	
-	3. Add that number to the total and print the message "The Total is".....[total].
-	
-	5. Stop the loop when the total is over 50.
 		

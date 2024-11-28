@@ -63,12 +63,12 @@ A conditional loop is like a combination of a fixed loop and an if statement and
     
 	2.0
  
-	   2.1 While number != 50
+		2.1 While number != 50
  
-	   2.2 Ask user to enter a number
+		2.2 Ask user to enter a number
  
-	   2.3 Add number to total
+		2.3 Add number to total
  
-	   2.4 Display total
+		2.4 Display total
 	
 		

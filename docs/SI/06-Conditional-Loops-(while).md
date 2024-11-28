@@ -55,20 +55,20 @@ A conditional loop is like a combination of a fixed loop and an if statement and
 
     __Main Steps__
 		
-	1. Set total TO 0 
+	1.0 Set total TO 0 
 	
-	2. Start conditional loop
+	2.0 Start conditional loop
     
     __Refinements__
     
-	2.0
+ 	`2.0` 
+
+   	:	2.1 While number != 50
  
-		2.1 While number != 50
+	:	2.2 Ask user to enter a number
  
-		2.2 Ask user to enter a number
+	:	2.3 Add number to total
  
-		2.3 Add number to total
- 
-		2.4 Display total
+	:	2.4 Display total
 	
 		

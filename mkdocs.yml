@@ -55,7 +55,6 @@ theme:
        name: Dark mode
       primary: green
       accent: deep purple
-
     - scheme: default
       toggle:
        icon: material/weather-night

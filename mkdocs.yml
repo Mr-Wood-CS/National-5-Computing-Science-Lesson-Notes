@@ -7,6 +7,8 @@ nav:
       - Analysis: 'SDD/02-Analysis.md'
       - Design: 'SDD/03-Design.md'
       - Software Implementation: 'SDD/04-Software-Implementation.md'
+      - Testing:
+        - Testing: 'SDD/05-Testing.md'
     - Unit 2 - Software Implementation:
       - SI/index.md
       - Input and Output: 'SI/01-Input-and-Output.md'
@@ -38,9 +40,6 @@ markdown_extensions:
   - pymdownx.tabbed:
       alternate_style: true
   - attr_list
-  - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 theme:
   name: material
   font:

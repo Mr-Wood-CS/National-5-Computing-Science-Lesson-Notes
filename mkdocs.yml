@@ -1,22 +1,4 @@
 site_name: National 5 Computing Science
-theme:
-  name: material
-  font:
-    text: Quicksand
-  palette: 
-    - scheme: slate
-      toggle:
-       icon: material/weather-sunny
-       name: Dark mode
-      primary: green
-      accent: deep purple
-
-    - scheme: default
-      toggle:
-       icon: material/weather-night
-       name: Light mode
-      primary: blue
-      accent: deep orange
 nav:
     - Home: 'index.md'
     - Unit 1 - Software Design and Development:
@@ -40,6 +22,24 @@ nav:
       - CS/index.md
     - Unit 4 - Database Design and Development:
       - DDD/index.md    
+theme:
+  name: material
+  font:
+    text: Quicksand
+  palette: 
+    - scheme: slate
+      toggle:
+       icon: material/weather-sunny
+       name: Dark mode
+      primary: green
+      accent: deep purple
+
+    - scheme: default
+      toggle:
+       icon: material/weather-night
+       name: Light mode
+      primary: blue
+      accent: deep orange
       
 markdown_extensions:
   - admonition

@@ -7,8 +7,6 @@ nav:
       - Analysis: 'SDD/02-Analysis.md'
       - Design: 'SDD/03-Design.md'
       - Software Implementation: 'SDD/04-Software-Implementation.md'
-      - Testing: 
-          - Normal Extreme and Exceptional Test Data: 'SDD/02-Analysis.md'  
     - Unit 2 - Software Implementation:
       - SI/index.md
       - Input and Output: 'SI/01-Input-and-Output.md'
@@ -22,9 +20,7 @@ nav:
     - Unit 3 - Computer Systems:
       - CS/index.md
     - Unit 4 - Database Design and Development:
-      - DDD/index.md
-    #- Code Practice: 'Python-Retrival-Practice/index.md'
-    #- Extension Tasks: 'Program-Extension-Tasks/index.md'      
+      - DDD/index.md    
 markdown_extensions:
   - admonition
   - pymdownx.details

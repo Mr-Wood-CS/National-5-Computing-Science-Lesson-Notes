@@ -44,6 +44,8 @@ markdown_extensions:
       alternate_style: true
   - attr_list
 theme:
+  icon:
+    logo: material/library
   name: material
   font:
     text: Quicksand
